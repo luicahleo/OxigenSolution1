@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    <Grid>
+
+
+        <ComboBox Name="comboBoxOpciones" Width="200" Height="30" VerticalAlignment="Top" Margin="10" SelectionChanged="comboBoxOpciones_SelectionChanged">
+            <ComboBoxItem Content="Static resource - Dynamic Resource" />
+            <ComboBoxItem Content="ResourceStyleTheme" />
+            <ComboBoxItem Content="ImplicitExplicitStyle" />
+            <ComboBoxItem Content="Trigger" />
+            <ComboBoxItem Content="Freezable" />
+            <ComboBoxItem Content="DataTemplate" />
+            <ComboBoxItem Content="UserInput" />
+            <ComboBoxItem Content="StackPanel" />
+            <ComboBoxItem Content="Opción 9" />
+            <ComboBoxItem Content="Opción 10" />
+            <ComboBoxItem Content="Opción 11" />
+            <ComboBoxItem Content="Opción 12" />
+        </ComboBox>
+
+
+
+    </Grid>
+</Window>
